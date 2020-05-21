@@ -28,7 +28,10 @@
           {{selectedHost == null ? 'All Systems' : selectedHost}}</button>
         <button type="button" id="date-picker-btn" class="time-option-select-btn btn flex-item-search">
           {{ isNullorEmpty(userDateTimeSeeked) ? 'Now' : userDateTimeSeeked }}</button>
-        <button type="button" id="settings-btn" class="settings-select-btn btn flex-item-search">Settings</button>
+        <!--COCO Begin-->
+        <!--remove setting button from ui -->
+        <!--<button type="button" id="settings-btn" class="settings-select-btn btn flex-item-search">Settings</button>-->
+        <!--COCO End-->
       </div>
     </form>
     <div class="date-picker ng-hide" id="date-picker" click-outside>
